@@ -4,6 +4,7 @@ import time
 import traceback
 import openai
 from dotenv import load_dotenv
+from dreamgpt.constants import LLM_MODEL
 
 from dreamgpt.constants import EMBEDDING_MODEL
 
@@ -15,7 +16,7 @@ def getEmbedding(text):
     openAIEmbedding = openai.Embedding.create(input = [text], model=EMBEDDING_MODEL)['data'][0]['embedding']
     return openAIEmbedding
 
-def chatComplete(messages, model="gpt-3.5-turbo", max_retries=3, initial_wait_time=1):
+def chatComplete(messages, model=LLM_MODEL, max_retries=3, initial_wait_time=1):
     retries = 0
     wait_time = initial_wait_time
     while retries <= max_retries:

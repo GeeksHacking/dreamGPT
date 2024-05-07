@@ -1,3 +1,4 @@
+'''
 import argparse
 from dreamgpt.constants import MAX_ITERATIONS
 from dreamgpt.engine.dreamEngine import DreamEngine
@@ -15,3 +16,4 @@ def main():
         combinedDreams = engine.combine(newDreams + dreams)
         dreams = engine.pick(combinedDreams + newDreams + dreams)
         maxIterations -= 1
+'''

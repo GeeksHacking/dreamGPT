@@ -1,7 +1,7 @@
 import random
 import os
 
-from dreamgpt.constants import THEME_SEEDS_WEIGHT
+from dreamGPT.dreamgpt.constants import THEME_SEEDS_WEIGHT
 
 def dreamPrompt(themeSeeds, count = 6):
     file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "commonWords.txt")

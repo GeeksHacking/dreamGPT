@@ -1,9 +1,9 @@
 import time
 import uuid
 from dotenv import load_dotenv
-from dreamgpt.constants import IMPACT_WEIGHT, IMPLEMENTATION_WEIGHT, MARKET_WEIGHT, NOVELTY_WEIGHT, USEFULNESS_WEIGHT
+from dreamGPT.dreamgpt.constants import IMPACT_WEIGHT, IMPLEMENTATION_WEIGHT, MARKET_WEIGHT, NOVELTY_WEIGHT, USEFULNESS_WEIGHT
 
-from dreamgpt.llm.llm import getEmbedding
+from dreamGPT.dreamgpt.llm.llm import getEmbedding
 
 def getEntityFromJSON(entityJSON, parentIDs=None):
     try:

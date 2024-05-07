@@ -1,5 +1,5 @@
-from dreamgpt.constants import MAX_ITERATIONS
-from dreamgpt.engine.dreamEngine import DreamEngine
+from dreamGPT.dreamgpt.constants import MAX_ITERATIONS
+from dreamGPT.dreamgpt.engine.dreamEngine import DreamEngine
 
 def main(theme):
     all_dreams = []

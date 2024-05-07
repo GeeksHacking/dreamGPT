@@ -4,9 +4,9 @@ import time
 import traceback
 import openai
 from dotenv import load_dotenv
-from dreamgpt.constants import LLM_MODEL
+from dreamGPT.dreamgpt.constants import LLM_MODEL
 
-from dreamgpt.constants import EMBEDDING_MODEL
+from dreamGPT.dreamgpt.constants import EMBEDDING_MODEL
 
 load_dotenv()
 

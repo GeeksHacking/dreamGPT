@@ -2,7 +2,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
-from dreamgpt.constants import OPENAI_EMBEDDING_MODEL
+from dreamGPT.dreamgpt.constants import OPENAI_EMBEDDING_MODEL
 
 load_dotenv()
 

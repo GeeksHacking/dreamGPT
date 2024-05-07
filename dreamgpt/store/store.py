@@ -3,9 +3,9 @@ import pinecone
 import openai
 from dotenv import load_dotenv
 
-from dreamgpt.constants import EMBEDDING_VECTOR_SIZE, PINECONE_INDEX_NAME
-from dreamgpt.llm.llm import getEmbedding
-from dreamgpt.store.entity import Entity
+from dreamGPT.dreamgpt.constants import EMBEDDING_VECTOR_SIZE, PINECONE_INDEX_NAME
+from dreamGPT.dreamgpt.llm.llm import getEmbedding
+from dreamGPT.dreamgpt.store.entity import Entity
 
 load_dotenv()
 

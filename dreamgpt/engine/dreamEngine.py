@@ -1,12 +1,12 @@
 
 import random
-from dreamgpt.constants import THEME_SEED_COUNT
-from dreamgpt.engine.prompts.combinePrompts import combinePrompt
-from dreamgpt.engine.prompts.dreamPrompts import dreamPrompt
-from dreamgpt.engine.prompts.themeExpansionPrompts import themeExpansionPrompt
-from dreamgpt.llm.llm import chatComplete
-from dreamgpt.store.entity import getEntityFromJSON
-from dreamgpt.store.store import Store
+from dreamGPT.dreamgpt.constants import THEME_SEED_COUNT
+from dreamGPT.dreamgpt.engine.prompts.combinePrompts import combinePrompt
+from dreamGPT.dreamgpt.engine.prompts.dreamPrompts import dreamPrompt
+from dreamGPT.dreamgpt.engine.prompts.themeExpansionPrompts import themeExpansionPrompt
+from dreamGPT.dreamgpt.llm.llm import chatComplete
+from dreamGPT.dreamgpt.store.entity import getEntityFromJSON
+from dreamGPT.dreamgpt.store.store import Store
 
 class DreamEngine:
   def __init__(self):
